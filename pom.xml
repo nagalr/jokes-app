@@ -51,7 +51,6 @@
         </dependency>
 
     </dependencies>
-    <!-- just a comment -->
     <build>
         <plugins>
             <plugin>
