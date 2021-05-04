@@ -32,7 +32,6 @@ public class JokesController {
 
         log.debug(">>>>> New Joke Published");
         randomJoke = jokeService.getJoke();
-
         model.addAttribute("joke", randomJoke);
 
         return "chucknorris";
